@@ -125,6 +125,38 @@ You should see:
 
 ---
 
+## ⚙️ Personal Settings
+
+This section documents custom configurations, extensions, skills, and workflow adjustments for Claude Code.
+
+### 1. Caveman Skill
+
+**Caveman** is a skill / mode for AI assistants and Claude Code designed to enforce ultra-concise, direct-to-the-point answers (saving tokens and speeding up developer workflows).
+
+#### Installation & Setup Methods:
+
+##### Option A: Via Claude Code Skills / Plugins
+If using Claude Code's plugin/skill system:
+```bash
+# Inside Claude Code interactive session or CLI
+/plugin install caveman
+# or install directly from a skill repository
+/skill add https://github.com/anthropics/claude-plugins-official/tree/main/plugins/caveman
+```
+
+##### Option B: Global / Project instructions (`~/.claude/CLAUDE.md` or `CLAUDE.md`)
+You can add instructions directly into your Claude configuration file (`CLAUDE.md`) to activate Caveman behavior:
+
+```markdown
+# Personal Instructions - Caveman Mode
+When answering technical questions, be extremely concise. Skip greetings, disclaimers, and unnecessary pleasantries. Give code first, explain only what is critical.
+```
+
+##### Option C: Custom Slash Command
+Set up a `/caveman` quick command to toggle this mode when you need minimal token usage and maximum conciseness.
+
+---
+
 ## 📌 Next Steps
 
 - [ ] Complete WSL environment setup.
