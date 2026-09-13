@@ -145,6 +145,12 @@ ollama pull glm-4.7-flash
 ollama pull qwen3.5
 ```
 
+#### Ejecutar Claude Code con un Modelo Local de Ollama
+Para iniciar Claude Code utilizando directamente un modelo local ejecutado en Ollama:
+```bash
+ollama launch claude --model qwen3.5
+```
+
 ---
 
 ## ⚙️ Configuraciones Personales
