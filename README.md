@@ -131,29 +131,19 @@ En esta sección se documentan configuraciones personalizadas, extensiones, skil
 
 ### 1. Caveman Skill
 
-**Caveman** es un skill / modo para asistentes y Claude Code que fuerza respuestas concisas, directas al grano y sin rodeos innecesarios (estilo "lenguaje de cavernícola" o ultra-resumido), ideal para ahorrar tokens y acelerar las respuestas.
+**Caveman** es un skill para Claude Code y asistentes de IA diseñado para forzar respuestas ultra-concisas, directas al grano y sin rodeos innecesarios. Esto ayuda a reducir drásticamente el consumo de tokens y acelerar el tiempo de respuesta.
 
-#### Métodos de instalación / configuración:
+#### Instalación
 
-##### Opción A: A través de Claude Code Skills / Plugins
-Si estás usando el sistema de plugins/skills de Claude Code:
+Puedes instalar la skill directamente usando `npx`:
+
 ```bash
-# Dentro de la sesión de Claude Code o vía CLI
-/plugin install caveman
-# o instalar desde el repositorio de la skill
-/skill add https://github.com/anthropics/claude-plugins-official/tree/main/plugins/caveman
+npx skills add JuliusBrussee/caveman
 ```
 
-##### Opción B: Instrucciones globales (`~/.claude/CLAUDE.md` o `CLAUDE.md` del proyecto)
-Puedes añadir la instrucción directa a tu archivo de reglas de Claude (`CLAUDE.md`) para activar el comportamiento de Caveman:
+#### Uso
 
-```markdown
-# Personal Instructions - Caveman Mode
-When answering technical questions, be extremely concise. Skip greetings, disclaimers, and unnecessary pleasantries. Give code first, explain only what is critical.
-```
-
-##### Opción C: Comando personalizado / Slash command
-Puedes configurar un prompt rápido o comando `/caveman` para alternar este modo cuando necesites máxima síntesis y menor consumo de tokens.
+Una vez instalada, Claude responderá de manera concisa y orientada a código/solución rápida. También puedes invocarla o configurarla según las opciones de la skill.
 
 ---
 
