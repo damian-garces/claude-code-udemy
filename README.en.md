@@ -125,6 +125,28 @@ You should see:
 
 ---
 
+### 5. Ollama
+
+[Ollama](https://ollama.com/) lets you run large language models locally. On the official downloads page ([Download Ollama on Linux](https://ollama.com/download/linux)), choose the tab matching your OS (macOS, Linux, or Windows); since we are working inside **WSL**, choose **Linux**.
+
+#### Installation in WSL (Linux)
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+> **Note (WSL Network Troubleshooting):** If you encounter a `network is unreachable` error when pulling models due to IPv6 routing, temporarily disable IPv6 with:
+> ```bash
+> sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
+> ```
+
+#### Recommended Local Models Download
+```bash
+ollama pull glm-4.7-flash
+ollama pull qwen3.5
+```
+
+---
+
 ## ⚙️ Personal Settings
 
 This section documents custom configurations, extensions, skills, and workflow adjustments for Claude Code.

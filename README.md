@@ -125,6 +125,28 @@ Deberías recibir un mensaje similar a:
 
 ---
 
+### 5. Ollama
+
+[Ollama](https://ollama.com/) permite ejecutar modelos de lenguaje de forma local. En la página oficial de descargas ([Download Ollama on Linux](https://ollama.com/download/linux)), selecciona la pestaña correspondiente a tu sistema (macOS, Linux o Windows); como estamos trabajando dentro de **WSL**, seleccionamos la versión de **Linux**.
+
+#### Instalación en WSL (Linux)
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+> **Nota (Solución de red en WSL):** Si al descargar modelos obtienes un error como `network is unreachable` por IPv6, desactiva IPv6 temporalmente con:
+> ```bash
+> sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
+> ```
+
+#### Descarga de Modelos Locales Recomendados
+```bash
+ollama pull glm-4.7-flash
+ollama pull qwen3.5
+```
+
+---
+
 ## ⚙️ Configuraciones Personales
 
 En esta sección se documentan configuraciones personalizadas, extensiones, skills y ajustes del flujo de trabajo con Claude Code.
