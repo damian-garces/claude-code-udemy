@@ -175,7 +175,26 @@ Once installed, Claude will provide concise, code-first answers without unnecess
 
 ---
 
-## 📌 Next Steps
+## �️ Useful Commands
+
+Essential commands and tools to manage your sessions and workflows in Claude Code:
+
+### 1. `/rewind` (Rewind / Restore State)
+
+The `/rewind` command allows you to **step back in time** within your active Claude Code session.
+
+```text
+/rewind
+```
+
+#### What it does & How it works:
+- **Undo code changes:** Reverts file edits and changes made by Claude during previous steps in the conversation.
+- **Restore conversation context:** Removes recent prompts and responses that may have caused confusion or consumed context, letting you restart the task from a clean checkpoint.
+- **Interactive selector:** When you run `/rewind`, Claude Code presents an interactive list of recent actions/checkpoints so you can select the exact state to restore.
+
+---
+
+## �📌 Next Steps
 
 - [ ] Complete WSL environment setup.
 - [ ] Explore initial Claude Code workflows and features.

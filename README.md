@@ -175,7 +175,26 @@ Una vez instalada, Claude responderá de manera concisa y orientada a código/so
 
 ---
 
-## 📌 Próximos Pasos
+## �️ Comandos Útiles
+
+Comandos y herramientas esenciales para gestionar tus sesiones y flujos de trabajo en Claude Code:
+
+### 1. `/rewind` (Rebobinar / Revertir Estado)
+
+El comando `/rewind` te permite **retroceder en el tiempo** dentro de tu sesión activa de Claude Code.
+
+```text
+/rewind
+```
+
+#### ¿Para qué sirve y cómo funciona?
+- **Deshacer cambios de código:** Revierte los cambios de archivos y ediciones realizadas por Claude en pasos anteriores de la conversación.
+- **Restaurar el contexto de la conversación:** Elimina los últimos turnos o mensajes que hayan desviado al asistente o consumido contexto innecesario, permitiéndote retomar la tarea desde un punto previo más limpio.
+- **Selector interactivo:** Al ejecutar `/rewind`, Claude Code muestra un historial de acciones/mensajes recientes para que elijas exactamente hasta qué punto deseas rebobinar.
+
+---
+
+## �📌 Próximos Pasos
 
 - [ ] Completar configuración del entorno en WSL.
 - [ ] Explorar los primeros comandos y capacidades de Claude Code.
