@@ -193,7 +193,20 @@ The `/rewind` command allows you to **step back in time** within your active Cla
 - **Interactive selector:** When you run `/rewind`, Claude Code presents an interactive list of recent actions/checkpoints so you can select the exact state to restore.
 
 ---
+### 2. `/tasks` (Task & Background Process Management)
 
+The `/tasks` command lets you view, manage, and monitor active background executions and concurrent processes.
+
+```text
+/tasks
+```
+
+#### What it does & How it works:
+- **Background task monitoring:** View running background processes started by Claude or the user (e.g., dev servers, test runners, watchers, build pipelines).
+- **Execution control:** Check process status, inspect logs/output, or terminate/cancel tasks that are no longer needed.
+- **Structured tracking:** Keeps operations visible without blocking the main interactive chat session.
+
+---
 ## �📌 Next Steps
 
 - [ ] Complete WSL environment setup.

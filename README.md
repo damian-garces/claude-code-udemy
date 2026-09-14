@@ -193,7 +193,20 @@ El comando `/rewind` te permite **retroceder en el tiempo** dentro de tu sesión
 - **Selector interactivo:** Al ejecutar `/rewind`, Claude Code muestra un historial de acciones/mensajes recientes para que elijas exactamente hasta qué punto deseas rebobinar.
 
 ---
+### 2. `/tasks` (Gestión de Tareas y Procesos en Segundo Plano)
 
+El comando `/tasks` permite ver, gestionar y monitorear tareas activas, ejecuciones de comandos en segundo plano y procesos concurrentes.
+
+```text
+/tasks
+```
+
+#### ¿Para qué sirve y cómo funciona?
+- **Monitoreo de tareas en background:** Visualiza los procesos en ejecución que Claude o el usuario hayan iniciado en segundo plano (servidores de desarrollo, compiladores, watchers, tests largos).
+- **Control de ejecución:** Permite consultar el estado, ver logs de salida o cancelar/detener tareas que ya no sean necesarias.
+- **Seguimiento estructurado:** Ayuda a mantener visibilidad de las operaciones asíncronas sin bloquear la sesión interactiva principal.
+
+---
 ## �📌 Próximos Pasos
 
 - [ ] Completar configuración del entorno en WSL.
