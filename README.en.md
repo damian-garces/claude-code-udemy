@@ -207,6 +207,20 @@ The `/tasks` command lets you view, manage, and monitor active background execut
 - **Structured tracking:** Keeps operations visible without blocking the main interactive chat session.
 
 ---
+### 3. `/init` (Initialize Project Configuration)
+
+The `/init` command analyzes the current workspace and automatically generates the `CLAUDE.md` context and guidelines file.
+
+```text
+/init
+```
+
+#### What it does & How it works:
+- **Project architecture scan:** Discovers project dependencies, frameworks, linters, and build scripts.
+- **`CLAUDE.md` generation:** Creates a comprehensive guideline of conventions, common workflow commands (build, test, run), and architectural patterns for instant Claude context.
+- **Team alignment:** Ensures consistent guidelines, boundaries, and best practices across developers and AI sessions.
+
+---
 ## �📌 Next Steps
 
 - [ ] Complete WSL environment setup.

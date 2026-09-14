@@ -207,6 +207,20 @@ El comando `/tasks` permite ver, gestionar y monitorear tareas activas, ejecucio
 - **Seguimiento estructurado:** Ayuda a mantener visibilidad de las operaciones asíncronas sin bloquear la sesión interactiva principal.
 
 ---
+### 3. `/init` (Inicializar Configuración del Proyecto)
+
+El comando `/init` analiza el espacio de trabajo actual y genera automáticamente el archivo de configuración y contexto `CLAUDE.md`.
+
+```text
+/init
+```
+
+#### ¿Para qué sirve y cómo funciona?
+- **Análisis del proyecto:** Escanea la arquitectura del código, dependencias, frameworks, linters y scripts de construcción del repositorio.
+- **Creación de `CLAUDE.md`:** Genera una guía con las convenciones del proyecto, comandos frecuentes (build, test, run) y reglas de arquitectura para que Claude entienda el contexto de inmediato.
+- **Estandarización del equipo:** Sirve como punto de partida para que cualquier miembro del equipo o sesión de Claude comparta las mismas instrucciones y mejores prácticas.
+
+---
 ## �📌 Próximos Pasos
 
 - [ ] Completar configuración del entorno en WSL.
