@@ -221,6 +221,12 @@ El comando `/init` analiza el espacio de trabajo actual y genera automáticament
 - **Estandarización del equipo:** Sirve como punto de partida para que cualquier miembro del equipo o sesión de Claude comparta las mismas instrucciones y mejores prácticas.
 
 ---
+
+## 📄 Recursos
+
+- [Claude Code Cheatsheet (PDF)](claudecode-cheatsheet.pdf) — resumen con los principales códigos, atajos y comandos disponibles en Claude Code.
+
+---
 ## �📌 Próximos Pasos
 
 - [ ] Completar configuración del entorno en WSL.

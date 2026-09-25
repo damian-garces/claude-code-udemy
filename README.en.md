@@ -221,6 +221,12 @@ The `/init` command analyzes the current workspace and automatically generates t
 - **Team alignment:** Ensures consistent guidelines, boundaries, and best practices across developers and AI sessions.
 
 ---
+
+## 📄 Resources
+
+- [Claude Code Cheatsheet (PDF)](claudecode-cheatsheet.pdf) — a summary of the main codes, shortcuts, and commands available in Claude Code.
+
+---
 ## �📌 Next Steps
 
 - [ ] Complete WSL environment setup.
